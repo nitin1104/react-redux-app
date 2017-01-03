@@ -1,6 +1,9 @@
-#seed-react-webpack
+# react-redux-app
 
-This is a seed Project for react using webpack configration.
+This is an app in react-redux using webpack configration.
 
 ============= STEPS TO RUN =============
 
+1. Run command <code>npm install</code>
+
+2. After that <code>npm run serve</code>
