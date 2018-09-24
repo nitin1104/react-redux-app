@@ -6,7 +6,7 @@ class FooterComponent extends React.Component{
 	constructor (props) {
 		super (props);
 		this.state = {
-			titleText: "Footer Component"
+			titleText: "Employee Database"
 		}
 	}
 
@@ -14,7 +14,7 @@ class FooterComponent extends React.Component{
 		return (
 			<div className="footer">
 				<div className="inner">
-					<p>Cover template for <a href="http://getbootstrap.com">{this.state.titleText}</a>, by <a href="#">Nitin Bhatnagar</a>.</p>
+					<p>Template for <a href="http://getbootstrap.com">{this.state.titleText}</a>, by <a href="mailto:nitin.web@gmail.com">Nitin Bhatnagar</a>.</p>
 				</div>
 			</div>
 		)

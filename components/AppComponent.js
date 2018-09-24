@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import store from '../store/store'
+import {Provider} from 'react-redux'
 
 import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import cover from './cover.css';
@@ -19,6 +21,6 @@ class App extends React.Component{
 	}
 }
 
-ReactDOM.render(<App></App> , document.getElementById('site-wrapper'));
+ReactDOM.render(<Provider store={store}><App></App></Provider> , document.getElementById('site-wrapper'));
 
 export default App;

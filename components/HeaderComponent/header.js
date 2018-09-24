@@ -20,13 +20,11 @@ class HeaderComponent extends React.Component{
 							<span className="icon-bar"></span>
 							<span className="icon-bar"></span>
 						</button>
-						<a className="navbar-brand" href="#">Project name</a>
+						<a className="navbar-brand" href="#">Employee Database</a>
 					</div>
 				<div id="navbar" className="navbar-collapse collapse">
 					<ul className="nav navbar-nav navbar-right">
 						<li><a href="#">Dashboard</a></li>
-						<li><a href="#">Settings</a></li>
-						<li><a href="#">Profile</a></li>
 						<li><a href="#">Help</a></li>
 					</ul>
 					<form className="navbar-form navbar-right">
